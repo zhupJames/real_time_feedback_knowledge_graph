@@ -1,4 +1,3 @@
-```markdown
 # Real-Time Feedback Knowledge Graph
 
 A Python tool that dynamically clusters user feedback, extracts core keywords, and visualizes them as a color‑coded knowledge graph in real time.
@@ -84,5 +83,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
 ```
