@@ -209,6 +209,7 @@ def plot_graph(G, centers, ax, title):
         sim = d["weight"]
         # scale thickness
         w   = MIN_EDGE_WIDTH + (sim - SIM_THRESHOLD) / (1 - SIM_THRESHOLD) * (MAX_EDGE_WIDTH - MIN_EDGE_WIDTH)
+        w   = max(MIN_EDGE_WIDTH, w)
         edge_list.append((u, v))
         widths.append(w)
     nx.draw_networkx_edges(
