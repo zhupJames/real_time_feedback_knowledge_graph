@@ -45,6 +45,13 @@ The script will run `ITERATIONS` cycles:
 
 To integrate your own feedback streams, replace the `suggestion_pool` and `opinion_pool` lists or modify the feedback‑appending logic in `main()`.
 
+## Troubleshooting
+
+If the script fails to download the `sentence-transformers` model or connect to
+Openrouter, check that your environment allows outbound HTTPS traffic and that
+`OPENROUTER_API_KEY` is correctly set. You can also provide a local model path
+by editing `EMBED_MODEL` in `fb_graph.py`.
+
 ## Configuration
 
 Edit these constants at the top of `fb_graph.py` as needed:
